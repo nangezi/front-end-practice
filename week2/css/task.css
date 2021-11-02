@@ -1,0 +1,65 @@
+html,
+body {
+  height: 100%;
+}
+#page-wrap {
+  background-color: rgba(160, 218, 233, 0.425);
+  width: 500px;
+  height: 100vh;
+  margin: 0;
+  padding: 3%;
+  position: absolute;
+}
+
+.level-1 {
+  position: absolute;
+  width: 80%;
+  height: 55%;
+  margin: 0;
+  background-color: pink;
+}
+.level-1 > p {
+  color: red;
+}
+p {
+  font-family: serif;
+  font-weight: bolder;
+}
+.red {
+  background-color: red;
+}
+
+.box {
+  width: 190px;
+  height: 190px;
+}
+.b-1 {
+  position: absolute;
+  border: 3px solid black;
+  border-radius: 5%;
+}
+.b-2 {
+  background-color: rgb(153, 174, 224);
+  box-shadow: 0 3px 3px 3px rgb(59, 63, 63);
+  position: absolute;
+  top: 62%;
+}
+.part3{
+    width: 80%;
+    position: absolute;
+    top:62%;
+}
+li {
+  color: blue;
+}
+.part4{
+    width: 80%;
+    position: absolute;
+    top:80%;
+}
+h3 + p {
+  text-align: center;
+}
+.left{
+  margin-left: 5px;;
+}
